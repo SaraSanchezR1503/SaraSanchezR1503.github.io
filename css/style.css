@@ -1,0 +1,294 @@
+:root {
+    --color__primario: rgb(53, 168, 163);
+    --color__secundario: rgb(105, 26, 121);
+    --color__tercero: white;
+}
+
+
+*{
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Lexend', sans-serif;
+    margin: 0em;
+    padding: 0em; 
+}
+
+.item img{
+    width: 40vw;
+}
+
+.logo img{
+    width: 100%;
+    padding: 0em;
+}
+
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.menu{
+    align-self:center;
+    
+}
+
+header .logo{
+    padding: 1.3em;
+    margin: 0em 3.1em;
+}
+
+header {
+    background-color: var(--color__primario);
+}
+
+header .menu ul li {
+    display: inline;
+}
+
+header .menu ul li a {
+    color:var(--color__tercero);
+    padding: 0.5em 1em;
+    justify-content: space-around;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+
+header .menu ul li a:hover {
+    color: black;
+    transition: 1s;
+}
+
+.buscar a {
+    background-color: var(--color__secundario);
+    padding: 0.6em 2em;
+    border-radius: 1.3em;
+    flex-wrap: wrap;
+}
+
+/**Titulo Marca*/
+.container:nth-child(2) h2{
+    font-weight: 800;
+    font-size: 3em;
+    margin-bottom: 0.6em;
+    font-family: 'Bitter', serif;
+}
+
+/**Caja de Marca e Imagen de Jamie Oliver*/
+.container:nth-child(2){
+    display: flex;
+}
+
+.item{
+    align-self: center;
+}
+
+.container:nth-child(2) p{
+    font-weight: 500;
+}
+
+
+/*Caja de productos*/
+.container:nth-child(3){
+    display: flex;
+    background-color: var(--color__tercero);
+    font-weight: 500;
+}
+
+
+
+/*caja de Tono de voz*/
+.container:nth-child(4){
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    padding-bottom: 0.2em;
+}
+
+/*titulo tono de voz*/
+.container:nth-child(4) .tono {
+    font-weight: 700;
+    font-size: 1.5em;
+    font-style: oblique;
+    font-family: 'Bitter', serif;
+    color: var(--color__primario);
+    margin-bottom: 0.6em;
+}
+
+
+/*Caja de Hablar claro y energético*/
+.container:nth-child(5){
+    display: flex;
+    flex-direction: row;
+    padding: 0.6em 2.5em 0.6em 1.3em;
+}
+
+/*hablar claro*/
+.peque{ 
+    font-size: 0.7em;
+}
+
+/*energetico*/
+.habla{
+    color: gray;
+    font-style: oblique;
+    font-family: 'Bitter', serif;
+    font-size: 1.3em;
+    margin-bottom: 0.3em;
+}
+
+.container:nth-child(7){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2.5em 0em;
+    justify-content: space-around;
+    background-color: var(--color__tercero);
+    margin: 0.3em 0em;
+}
+
+/*Titulo de Paleta*/
+.paleta{
+    font-weight: 600;
+    font-size: 2.5em;
+    font-style: oblique;
+    font-family: 'Bitter', serif;
+    color: var(--color__primario);
+}
+
+.item_color{
+    border-radius: 1.3em;
+    padding: 1.3em;
+    height: 6.3em;
+    width: 12.5em;
+    margin: 0em 2em;
+}
+
+.item_color h2{
+    font-family: 'Bitter', serif;
+    font-style: oblique;
+}
+
+/*Fondo de los colores*/
+.item_color:nth-child(2){
+    background-color: rgb(91, 155, 91);
+    color: white;
+}
+
+.item_color:nth-child(3){
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.item_color:nth-child(4){
+    background-color: rgb(230, 217, 39);
+    color: white;
+}
+
+.item_color:nth-child(5){
+    background-color: var(--color__secundario);
+    color: white;
+}
+
+.item_color:nth-child(6){
+    background-color: var(--color__primario);
+    color: white;
+}
+
+.item_color:nth-child(7){
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+
+
+/*Pie de Página*/
+
+
+
+.pie__de__pag{
+    text-align: left;
+    padding: 3em 5em;
+    background-color: var(--color__primario);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pie__de__pag ul li{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0em 0.3em ;
+}
+
+.contactos{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.contactos ul li{
+    margin: 0em 2.5em;
+    color: var(--color__tercero);
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+ 
+}
+
+.iconos{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.iconos a{
+    font-size: 1.3em;
+    color: var(--color__tercero);
+    padding: 0em;
+}
+
+
+/*Titulos de contacto*/
+.titulo{
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: 'Bitter', serif;
+    color: var(--color__tercero);
+}
+
+
+
+.pie{
+    text-align: left;
+    padding: 0em 2.5em ;
+    background-color: var(--color__primario);
+    text-decoration: none;
+    justify-content: space-between;
+    display: flex;
+}
+
+.pie .logo{
+    padding: 3em 0em;
+}
+
+.redes ul li a:hover {
+    color: black;
+    transition: 1s;
+}
+
+.registro{
+    display: flex;
+    list-style-type: none;
+    align-self: center;
+}
+
+.registrar{
+    background-color: var(--color__secundario);
+    padding: 0.6em 2em;
+    border-radius: 1.3em;
+}
+
+.registrar a{
+    color: white;
+}
